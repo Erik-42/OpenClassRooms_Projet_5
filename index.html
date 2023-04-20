@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-FR">
 
 <head>
 	<meta charset="UTF-8">
 	<title>Nina Carducci</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
-		content="Portfolio de Nina Carducci. Photographe professionnel à Bordeaux, passionnée par son métier elle réalise des clichés à l'occasion de concert, mariage ou événement d'entreprise. Elle peut également réaliser vos portrait.">
+		content="Portfolio de Nina Carducci. Photographe professionnel à Bordeaux, passionnée par son métier, elle réalise des clichés à l'occasion de concert, mariage ou événement d'entreprise. Elle peut également réaliser vos portrait.">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,12 +15,35 @@
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
 
+	<!-- HTML Meta Tags -->
+	<title>Nina Carducci</title>
+	<meta name="description"
+		content="Portfolio de Nina Carducci. Photographe professionnel à Bordeaux, passionnée par son métier elle réalise des clichés à l'occasion de concert, mariage ou événement d'entreprise. Elle peut également réaliser vos portrait.">
+
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="https://erik-42.github.io/OpenClassRooms_Projet_5/">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Nina Carducci">
+	<meta property="og:description"
+		content="Portfolio de Nina Carducci. Photographe professionnel à Bordeaux, passionnée par son métier elle réalise des clichés à l'occasion de concert, mariage ou événement d'entreprise. Elle peut également réaliser vos portrait.">
+	<meta property="og:image" content="https://erik-42.github.io/OpenClassRooms_Projet_5/assets/images/camera.webp">
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta property="twitter:domain" content="erik-42.github.io">
+	<meta property="twitter:url" content="https://erik-42.github.io/OpenClassRooms_Projet_5/">
+	<meta name="twitter:title" content="Nina Carducci">
+	<meta name="twitter:description"
+		content="Portfolio de Nina Carducci. Photographe professionnel à Bordeaux, passionnée par son métier elle réalise des clichés à l'occasion de concert, mariage ou événement d'entreprise. Elle peut également réaliser vos portrait.">
+	<meta name="twitter:image" content="https://erik-42.github.io/OpenClassRooms_Projet_5/assets/images/camera.webp">
+
+	<!-- Meta Tags Generated via https://www.opengraph.xyz -->
 </head>
 
 <body>
-	<div class="top-header">
+	<header class="top-header">
 		<h1 class="name">Nina Carducci</h1>
-		<div class="nav">
+		<nav class="nav">
 			<ul>
 				<li>
 					<a href="#about">À propos</a>
@@ -40,9 +63,9 @@
 					</a>
 				</li>
 			</ul>
-		</div>
-	</div>
-	<div id="header">
+		</nav>
+	</header>
+	<section id="header">
 
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
@@ -55,16 +78,16 @@
 			</div>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" width="1064" height="492"
-						class="d-block w-100" alt="ryoji-iwata">
+					<img src="./assets/images/slider/ryoji-iwata.webp" width="1064" height="492" class="d-block w-100"
+						alt="ryoji-iwata">
 				</div>
 				<div class="carousel-item">
-					<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" width="1064" height="492"
+					<img src="./assets/images/slider/nicholas-green.webp" width="1064" height="492"
 						class="d-block w-100" alt="nicholas-green">
 				</div>
 				<div class="carousel-item">
-					<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" width="1064"
-						height="492" class="d-block w-100" alt="edward-cisneros">
+					<img src="./assets/images/slider/edward-cisneros.webp" width="1064" height="492"
+						class="d-block w-100" alt="edward-cisneros">
 				</div>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -78,12 +101,12 @@
 				<span class="visually-hidden">Next</span>
 			</button>
 		</div>
-	</div>
-	<div id="about">
+	</section>
+	<section id="about">
 		<div class="picture left">
 			<img src="./assets/images/nina.webp" width="425" height="425" alt="photo de profil de nina">
 		</div>
-		<div id="about-me">
+		<article id="about-me">
 			<h2 class="about-me__title">A propos de moi</h2>
 			<div class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais
 				prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre
@@ -94,34 +117,30 @@
 				C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma
 				technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la
 				tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
-		</div>
-	</div>
-	<div id="gallery">
+		</article>
+	</section>
+	<section id="gallery">
 		<h2 class="title">Portfolio</h2>
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
 				<img data-gallery-tag="Concert" class="gallery-item"
-					src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="aaron-paul" />
+					src="./assets/images/gallery/concerts/aaron-paul.webp" alt="aaron-paul" />
 				<img data-gallery-tag="Entreprises" class="gallery-item"
-					src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp"
-					alt="ali-morshedlou" />
+					src="./assets/images/gallery/entreprise/ali-morshedlou.webp" alt="ali-morshedlou" />
 				<img data-gallery-tag="Entreprises" class="gallery-item"
-					src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp"
-					alt="jason-goodman" />
+					src="./assets/images/gallery/entreprise/jason-goodman.webp" alt="jason-goodman" />
 				<img data-gallery-tag="Mariages" class="gallery-item"
-					src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="hannah-busing" />
+					src="./assets/images/gallery/mariage/hannah-busing.webp" alt="hannah-busing" />
 				<img data-gallery-tag="Portrait" class="gallery-item"
-					src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="ade-tunji" />
+					src="./assets/images/gallery/portraits/ade-tunji.webp" alt="ade-tunji" />
 				<img data-gallery-tag="Mariages" class="gallery-item"
-					src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="jakob-owens" />
+					src="./assets/images/gallery/mariage/jakob-owens.webp" alt="jakob-owens" />
 				<img data-gallery-tag="Portrait" class="gallery-item"
-					src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp"
-					alt="nino-van-prattenburg" />
+					src="./assets/images/gallery/portraits/nino-van-prattenburg.webp" alt="nino-van-prattenburg" />
 				<img data-gallery-tag="Concert" class="gallery-item"
-					src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="austin-neill" />
+					src="./assets/images/gallery/concerts/austin-neill.webp" alt="austin-neill" />
 				<img data-gallery-tag="Entreprises" class="gallery-item"
-					src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
-					alt="mateus-campos-felipe" />
+					src="./assets/images/gallery/entreprise/mateus-campos-felipe.webp" alt="mateus-campos-felipe" />
 			</div>
 		</div>
 		<div class="quote">
@@ -135,11 +154,11 @@
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
 		</div>
-	</div>
-	<div id="services">
+	</section>
+	<section id="services">
 		<h3 class="title">Mes services</h3>
 		<div class="container">
-			<div class="service">
+			<article class="service">
 				<div class="service__description">
 					<h3>Shooting photo</h3>
 					<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en
@@ -150,8 +169,8 @@
 					<span>Matériel, déplacement inclus</span>
 				</div>
 
-			</div>
-			<div class="service">
+			</article>
+			<article class="service">
 				<div class="service__description">
 					<h3>Retouches</h3>
 					<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu
@@ -161,8 +180,8 @@
 					<h4>50€/photo</h4>
 					<span>2 AR par photo</span>
 				</div>
-			</div>
-			<div class="service">
+			</article>
+			<article class="service">
 				<div class="service__description">
 					<h3>Album photos</h3>
 					<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un
@@ -172,10 +191,10 @@
 					<h4>400€ album A4</h4>
 					<span>30 pages recto/verso</span>
 				</div>
-			</div>
+			</article>
 		</div>
-	</div>
-	<div class="quote">
+	</section>
+	<article class="quote">
 		<figure>
 			<blockquote>
 				<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des
@@ -183,8 +202,8 @@
 			</blockquote>
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
-	</div>
-	<div id="contact">
+	</article>
+	<footer id="contact">
 		<div class="container">
 			<div class="form-container">
 				<h3>Une question ? Une demande de devis ?</h3>
@@ -203,7 +222,7 @@
 				<img src="./assets/images/camera.webp" width="423" height="423" alt="image camera">
 			</div>
 		</div>
-	</div>
+	</footer>
 	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"
 		integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
