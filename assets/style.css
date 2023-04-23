@@ -1,3 +1,4 @@
+/* Général */
 body {
 	max-width: 1920px;
 	margin: auto;
@@ -42,6 +43,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: auto;
 }
 
 #about {
@@ -71,6 +73,7 @@ body {
 
 .picture img {
 	width: 100%;
+	height: auto;
 
 }
 
@@ -89,15 +92,13 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1rem;
+	margin-bottom: 7px;
 }
 
 #about-me p {
 	width: 80%;
 	font-size: 14px;
-}
-
-#gallery {
-	/*	min-height: 100vh; */
 }
 
 .title {
@@ -399,4 +400,10 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+}
+
+.price {
+	font-size: calc(1.275rem + 0.3vw);
+	line-height: 1.2;
+	margin-bottom: 0.5rem;
 }
