@@ -3,9 +3,9 @@
 
 <head>
 	<meta charset="UTF-8">
-
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="refresh" content="31536000">
+	<!--<meta http-equiv="Content-Security-Policy" content="script-src 'none'">-->
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link media="screen" rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -101,7 +101,7 @@
 			</button>
 		</div>
 	</main>
-	<span id="about">
+	<div id="about">
 		<div class="picture left">
 			<img src="./assets/images/nina.webp" width="425" height="425" alt="photo de profil de nina" loading="lazy">
 		</div>
@@ -117,7 +117,7 @@
 				technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la
 				tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 		</article>
-	</span>
+	</div>
 	<section id="gallery">
 		<h2 class="title">Portfolio</h2>
 		<div class="container py-3">
@@ -195,7 +195,7 @@
 			</article>
 		</div>
 	</section>
-	<span class="quote">
+	<div class="quote">
 		<figure>
 			<blockquote>
 				<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des
@@ -203,7 +203,7 @@
 			</blockquote>
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
-	</span>
+	</div>
 	<footer id="contact">
 		<div class="container">
 			<div class="form-container">
@@ -226,7 +226,7 @@
 	</footer>
 	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"
-		integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+		integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous" defer></script>
 	<script src="./assets/maugallery.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
 	<script type="application/ld+json">
@@ -238,7 +238,7 @@
 		  "@id": "",
 		  "url": "https://nina-carducci.github.io/",
 		  "telephone": "05 56 67 78 89",
-		  "priceRange": "50-400€",
+		  "priceRange": "50€-400€",
 		  "address": {
 			"@type": "PostalAddress",
 			"streetAddress": "68 avenue Alsace-Lorraine",
